@@ -1,0 +1,11 @@
+{
+  "name": "nico mokrinsky",
+  "description": "devops, nerd, metalhead, weeb",
+  "background_color": "#1e1e2e",
+  "theme_color": "#1e1e2e",
+  "display": "standalone",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "start_url": "/"
+}
