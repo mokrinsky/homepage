@@ -39,6 +39,7 @@
             src = ./.;
             hooks = {
               typos.enable = true;
+              eslint.enable = true;
             };
           };
         };

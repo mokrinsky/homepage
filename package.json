@@ -1,7 +1,13 @@
 {
-  "name": "with-tailwindcss-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "kolya.it-nextjs",
+  "version": "1.0.0",
+  "description": "my stupid homepage KEKW",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokrinsky/homepage"
+  },
+  "author": "Nico Mokrinsky",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,8 +30,8 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@catppuccin/tailwindcss": "^0.1.1",
     "eslint": "8.39.0",
-    "eslint-config-next": "13.3.4",
-    "@catppuccin/tailwindcss": "^0.1.1"
+    "eslint-config-next": "13.3.4"
   }
 }
