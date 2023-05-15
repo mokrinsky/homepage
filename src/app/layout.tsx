@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import { Inter, JetBrains_Mono, Caveat } from "next/font/google"
-import { Metadata } from "next";
+import { Metadata } from "next"
 
 const fontSans = Inter({ variable: "--font-sans", subsets: ["latin"] })
 const fontJetbrains = JetBrains_Mono({ variable: "--font-jetbrains", subsets: ["latin"], weight: "400" })
@@ -51,14 +51,10 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
-      lang='en'
+      lang="en"
       className={cn(
         "scroll-smooth font-sans text-text bg-base",
         "antialiased selection:bg-surface1 dark:mocha font-medium",
@@ -68,12 +64,15 @@ export default function RootLayout({
       )}
     >
       <body>
-        <div className='mx-auto max-w-3xl px-6 pb-20'>
-          <main className='pt-16'>
+        <div className="mx-auto max-w-3xl px-6 pb-20">
+          <main className="pt-16">
             {children}
             <Analytics />
           </main>
         </div>
+        <span className="text-blue" />
+        <span className="text-rosewater" />
+        <span className="text-sapphire" />
       </body>
     </html>
   )
