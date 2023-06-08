@@ -57,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={cn(
         "scroll-smooth font-sans text-text bg-base",
-        "antialiased selection:bg-surface1 dark:mocha font-medium",
+        "antialiased selection:bg-surface1 latte dark:mocha font-medium",
         fontSans.variable,
         fontJetbrains.variable,
         fontCaveat.variable
