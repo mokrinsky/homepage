@@ -110,15 +110,18 @@ export default function Home() {
         </div>
 
         <div className="my-10">
-          <h2 className="font-bold text-4xl mb-2 text-peach font-caveat">stuff placeholder</h2>
+          <h2 className="font-bold text-4xl mb-2 text-peach font-caveat">Infrastructure</h2>
+          <p className="mb-2">
+            i&#39;m into r/homelab, so here are some links about my infra. if you know me in person - @tg me for more
+          </p>
           <ul className="list-disc list-inside space-y-2 marker:text-peach">
             <li>
-              <a href="https://loremipsum.io/" className="underlined">
-                item
+              <a href="https://mokrinsky.github.io/statuspage" className="underlined">
+                status
               </a>
               <span className="mx-2 text-overlay0">-</span>
               <span className="text-overlay0">
-                maybe one day i&#39;ll throw some useful links here. it&#39;s a placeholder for now
+                statuspage with some of my services. but looks like i gonna get rid of this one
               </span>
             </li>
           </ul>
