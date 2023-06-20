@@ -106,6 +106,13 @@ export default function Home() {
               <span className="mx-2 text-overlay0">-</span>
               <span className="text-overlay0">i watch a lot of movies and tv series... sometimes</span>
             </li>
+            <li>
+              <a className="text-sky underlined" href="https://discogs.com/user/mokrinsky">
+                discogs.com
+              </a>
+              <span className="mx-2 text-overlay0">-</span>
+              <span className="text-overlay0">i purchased a turntable recently... LP wishlist is here</span>
+            </li>
           </ul>
         </div>
 
@@ -121,7 +128,7 @@ export default function Home() {
               </a>
               <span className="mx-2 text-overlay0">-</span>
               <span className="text-overlay0">
-                statuspage with some of my services. but looks like i gonna get rid of this one
+                there was a statuspage of my services. now it doesn&#39;t work so I leave it as a placeholder for links
               </span>
             </li>
           </ul>
