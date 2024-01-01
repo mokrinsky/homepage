@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@catppuccin/tailwindcss": "^0.1.6",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "eslint-config-next": "13.5.6"
   }
 }
