@@ -2,18 +2,21 @@ import { cn } from "@/lib/utils"
 import "./globals.css"
 import { Analytics } from "@vercel/analytics/react"
 import { Inter, JetBrains_Mono, Caveat } from "next/font/google"
-import { Metadata } from "next"
+import { Metadata, Viewport } from "next"
 
 const fontSans = Inter({ variable: "--font-sans", subsets: ["latin"] })
 const fontJetbrains = JetBrains_Mono({ variable: "--font-jetbrains", subsets: ["latin"], weight: "400" })
 const fontCaveat = Caveat({ variable: "--font-caveat", subsets: ["latin"], weight: "400" })
+
+export const viewport: Viewport = {
+  themeColor: "#1e1e2e",
+}
 
 export const metadata: Metadata = {
   title: {
     default: "nico mokrinsky",
     template: "%s | nico mokrinsky",
   },
-  themeColor: "#1e1e2e",
   description: "devops, nerd, metalhead, weeb",
   robots: {
     index: true,
@@ -60,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         "antialiased selection:bg-surface1 latte dark:mocha font-medium",
         fontSans.variable,
         fontJetbrains.variable,
-        fontCaveat.variable
+        fontCaveat.variable,
       )}
     >
       <body>
