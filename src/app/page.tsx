@@ -104,7 +104,9 @@ export default function Home() {
                 trakt.tv
               </a>
               <span className="mx-2 text-overlay0">-</span>
-              <span className="text-overlay0">i watch a lot of movies and tv series... sometimes</span>
+              <span className="text-overlay0">
+                i watch a lot of movies and tv series... (haven't watched a single one since I wrote this text)
+              </span>
             </li>
             <li>
               <a className="text-sky underlined" href="https://discogs.com/user/mokrinsky">
@@ -116,7 +118,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="my-10">
+<!--        <div className="my-10">
           <h2 className="font-bold text-4xl mb-2 text-peach font-caveat">Infrastructure</h2>
           <p className="mb-2">
             i&#39;m into r/homelab, so here are some links about my infra. if you know me in person - @tg me for more
@@ -132,7 +134,7 @@ export default function Home() {
               </span>
             </li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </section>
   )
