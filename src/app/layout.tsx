@@ -39,7 +39,6 @@ export const metadata: Metadata = {
     locale: "en-US",
     type: "website",
     url: "https://kolya.it/",
-    images: "https://idm1try.ru/api/og?heading=idm1try&desc=Frontend%20Developer",
   },
   icons: {
     icon: "/favicon.png",
